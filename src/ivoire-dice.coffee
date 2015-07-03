@@ -1,3 +1,4 @@
+"use strict"
 Ivoire = require('ivoire')
 _ = require('lodash')
 Owlbear = require('owlbear')
