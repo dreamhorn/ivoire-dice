@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "ivoire": "1.x",
-    "lodash": "^3.10.0",
+    "lodash": "3.x",
     "owlbear": "^0.1.0"
   }
 }
