@@ -1,0 +1,39 @@
+{
+  "name": "ivoire-dice",
+  "version": "1.0.0",
+  "description": "A set of magic dice for the Ivoire random number generator framework. — Edit",
+  "main": "lib/ivoire-dice.js",
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreamhorn/ivoire-dice.git"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "generator",
+    "dice"
+  ],
+  "author": "David Eyk <david.eyk@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/dreamhorn/ivoire-dice/issues"
+  },
+  "homepage": "https://github.com/dreamhorn/ivoire-dice",
+  "peerDependencies": {
+    "ivoire": "1.x"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "coffee-script": "^1.9.3",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "ivoire": "1.x",
+    "lodash": "^3.10.0",
+    "owlbear": "^0.1.0"
+  }
+}
