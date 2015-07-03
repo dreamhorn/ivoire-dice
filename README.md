@@ -32,6 +32,13 @@ var Ivoire = require('ivoire');
 require('ivoire-dice');
 ```
 
+Either way, instantiate and start rolling!
+
+```
+var i = new Ivoire();
+i.roll('2d10');
+```
+
 
 Reference
 ---------
