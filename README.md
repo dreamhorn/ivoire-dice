@@ -1,7 +1,8 @@
 ivoire-dice
 ===========
 
-A set of magic dice for the Ivoire random number generator framework.
+A set of magic dice for the [Ivoire](https://www.npmjs.com/package/ivoire)
+random number generator framework.
 
 
 Installing
