@@ -23,7 +23,7 @@ Getting Started
 `ivoire-dice` extends the `ivoire` package. You can require it directly:
 
 ```
-var Ivoire = require('ivoire-dice');
+var ivoire = require('ivoire-dice');
 ```
 
 Or you can require it alongside `ivoire`:
@@ -36,8 +36,8 @@ require('ivoire-dice');
 Either way, instantiate and start rolling!
 
 ```
-var i = new Ivoire();
-i.roll('2d10');
+var ivoire = new Ivoire();
+ivoire.roll('2d10');
 ```
 
 
@@ -47,7 +47,7 @@ Reference
 `ivoire-dice` adds some methods to the `Ivoire` prototype object, making them
 available on all `Ivoire` instances.
 
-### #roll(dexpr)
+### Ivoire.prototype.roll(dexpr)
 
 Roll the dice, as specified by the given dice expression.
 
@@ -55,28 +55,28 @@ Roll the dice, as specified by the given dice expression.
 [Owlbear](https://github.com/jmhnilbog/owlbear) parser to make sense of them:
 
 ```
-var i = new require('ivoire-dice');
+var ivoire = new require('ivoire-dice');
 
 // Roll two six-sided die:
-i.roll('2d6');
+ivoire.roll('2d6');
 
 // Roll one twenty-sided die, adding 5 to the result:
-i.roll('1d20 + 5')
+ivoire.roll('1d20 + 5')
 ```
 
-### #roll_fudge(num)
+### Ivoire.prototype.roll_fudge(num)
 
 Roll `num` number of [Fudge dice][fudge]. Fudge dice are six-sided dice with the sides
 `[-1, -1, 0, 0, 1, 1]`.
 
 ```
-var i = new require('ivoire-dice');
+var ivoire = new require('ivoire-dice');
 
 // Roll 4dF (the default)
-i.roll_fudge();
+ivoire.roll_fudge();
 
 // Roll 3dF
-i.roll_fudge(3);
+ivoire.roll_fudge(3);
 ```
 
 
