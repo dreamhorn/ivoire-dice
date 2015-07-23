@@ -4,6 +4,8 @@ ivoire-dice
 A set of magic dice for the [Ivoire](https://www.npmjs.com/package/ivoire)
 random number generator framework.
 
+[![Build Status](https://travis-ci.org/dreamhorn/ivoire-dice.svg?branch=master)](https://travis-ci.org/dreamhorn/ivoire-dice)
+
 
 Installing
 ----------
